@@ -30,6 +30,24 @@ namespace Calculadora
                 Console.WriteLine("Resta: {0} - {1} = {2}", numero1, numero2,
                 numero1 - numero2);
             }
+            else if (x == 3)
+            {
+                Console.WriteLine("Introduce un numero: ");
+                int numero1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Introduce otro número: ");
+                int numero2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Multiplicacion: {0} * {1} = {2}", numero1,
+                numero2, numero1 * numero2);
+            }
+            else if (x == 4)
+            {
+                Console.WriteLine("Introduce un numero: ");
+                int numero1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Introduce otro número: ");
+                int numero2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Division: {0} / {1} = {2}", numero1, numero2,
+                numero1 / numero2);
+            }
         }
     }
 }
