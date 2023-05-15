@@ -20,7 +20,15 @@ namespace Calculadora
                 int numero2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Suma: {0} + {1} = {2}", numero1, numero2,
                 numero1 + numero2);
-
+            }
+            else if (x == 2)
+            {
+                Console.WriteLine("Introduce un numero: ");
+                int numero1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Introduce otro número: ");
+                int numero2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Resta: {0} - {1} = {2}", numero1, numero2,
+                numero1 - numero2);
             }
         }
     }
